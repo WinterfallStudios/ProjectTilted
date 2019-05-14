@@ -1084,6 +1084,35 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -15.691059
       objectReference: {fileID: 0}
+    - target: {fileID: 2072385809, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313062516081350306, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4313062516081350306, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895654187167876249, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895654187167876249, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895654187167876249, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0001
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 98434336, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
     - {fileID: 432224609, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
@@ -1414,7 +1443,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingLayerMask: 111
+  m_RenderingLayerMask: 1852138866
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
