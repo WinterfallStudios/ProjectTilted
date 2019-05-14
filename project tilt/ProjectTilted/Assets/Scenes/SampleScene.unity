@@ -1002,52 +1002,57 @@ PrefabInstance:
     - target: {fileID: 8811409507284639174, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.005794507
+      value: 0.016277181
       objectReference: {fileID: 0}
     - target: {fileID: 8811409507284639174, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.0073507056
+      value: 0.0043319045
       objectReference: {fileID: 0}
     - target: {fileID: 8811409507284639174, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.0013952354
+      value: 0.0013034262
       objectReference: {fileID: 0}
     - target: {fileID: 8811409507284639174, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.007923109
+      value: 0.0035048488
       objectReference: {fileID: 0}
     - target: {fileID: 8811409507284639174, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Center.z
-      value: 0.0020772454
+      value: 0.0034137846
       objectReference: {fileID: 0}
     - target: {fileID: 2682138764355010641, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.0041454462
+      value: 0.016503232
       objectReference: {fileID: 0}
     - target: {fileID: 2682138764355010641, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.0013951018
+      value: -0.0018483519
       objectReference: {fileID: 0}
     - target: {fileID: 2682138764355010641, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.00946814
+      value: 0.004262078
       objectReference: {fileID: 0}
     - target: {fileID: 2682138764355010641, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Center.z
-      value: 0.0015294867
+      value: 0.0010243173
       objectReference: {fileID: 0}
     - target: {fileID: 2682138764355010641, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.006255386
+      value: 0.004005234
+      objectReference: {fileID: 0}
+    - target: {fileID: 2682138764355010641, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.0019113193
       objectReference: {fileID: 0}
     - target: {fileID: 5872319144213945631, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
