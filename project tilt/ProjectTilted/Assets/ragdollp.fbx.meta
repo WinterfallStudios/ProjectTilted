@@ -13,9 +13,10 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftFoot' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -23,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -72,7 +73,77 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: ragdollp(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: ragdollp(Clone)
+      position: {x: 0.27380633, y: 1.9365771, z: -0.12012484}
+      rotation: {x: -0.54815304, y: 0.40266764, z: 0.42909995, w: 0.594357}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: Bone
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.6968554, y: 0.0047820886, z: -0.00034298984, w: 0.71719563}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: 2.0372681e-12, y: 0.0099860625, z: -2.4010659e-12}
+      rotation: {x: -0.07407102, y: 0.5868228, z: 0.11856037, w: 0.7975562}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bone.001_end
+      parentName: Bone.001
+      position: {x: -0, y: 0.0117633045, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.002
+      parentName: Bone
+      position: {x: 2.0372681e-12, y: 0.0099860625, z: -2.4010659e-12}
+      rotation: {x: -0.74681854, y: 0.058625158, z: 0.007934915, w: 0.66239125}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Bone.002_end
+      parentName: Bone.002
+      position: {x: -0, y: 0.019470941, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.003
+      parentName: Bone
+      position: {x: 2.0372681e-12, y: 0.0099860625, z: -2.4010659e-12}
+      rotation: {x: -0.36484107, y: 0.4953766, z: 0.70290464, w: -0.3569567}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bone.003_end
+      parentName: Bone.003
+      position: {x: -0, y: 0.018997498, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.005
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.1326709, y: -0.52385134, z: 0.81936723, w: 0.19135186}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Bone.005_end
+      parentName: Bone.005
+      position: {x: -0, y: 0.010933562, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.006
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.52534336, y: -0.120589904, z: 0.15539922, w: 0.82784265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone.006_end
+      parentName: Bone.006
+      position: {x: -0, y: 0.011815124, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Icosphere.001
+      parentName: ragdollp(Clone)
+      position: {x: 0.28080726, y: 2.5593164, z: 0.08759729}
+      rotation: {x: -0.5047025, y: 0.42113826, z: 0.46797755, w: 0.59069026}
+      scale: {x: 74.13391, y: 74.133896, z: 74.133896}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -83,7 +154,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
