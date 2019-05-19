@@ -730,7 +730,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 483355576, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.2
+      value: 27.16
       objectReference: {fileID: 0}
     - target: {fileID: 483355576, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -806,15 +806,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1139470510, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00224
+      value: 0.00283
       objectReference: {fileID: 0}
     - target: {fileID: 1139470510, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0077
+      value: 0.0071
       objectReference: {fileID: 0}
     - target: {fileID: 1139470510, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00196
+      value: -0.00178
       objectReference: {fileID: 0}
     - target: {fileID: 1139470510, guid: 9368aa18935e6a74d908f55a3d3a9e9f, type: 3}
       propertyPath: m_LocalScale.y
@@ -2809,7 +2809,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0022400033, y: 0.007699996, z: -0.0019599912}
+  m_ConnectedAnchor: {x: 0.0028300001, y: 0.0071000047, z: -0.0017799897}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 1
