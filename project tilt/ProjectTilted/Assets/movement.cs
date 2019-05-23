@@ -36,7 +36,7 @@ public class movement : MonoBehaviour
 
             }
         }
-        else if (timeBtwJump > 0)
+        else
         {
             timeBtwJump -= Time.deltaTime;
         }
@@ -76,8 +76,10 @@ public class movement : MonoBehaviour
 
     void Jump()
     {
-        transform.Translate(Vector3.up * jumpforce * Time.deltaTime);
+        
+        rb.velocity = new Vector3(0f, jumpforce, 0f);
         timeBtwJump = StartTimeBtwJump;
+        
     }
 }
 
