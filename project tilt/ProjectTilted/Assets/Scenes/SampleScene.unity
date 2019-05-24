@@ -1932,12 +1932,12 @@ PrefabInstance:
     - target: {fileID: 1831438957170674148, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: jumpforce
-      value: 30.11
+      value: 26.2
       objectReference: {fileID: 0}
     - target: {fileID: 1831438957170674148, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
       propertyPath: StartTimeBtwJump
-      value: 2.21
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 770053495609222845, guid: 9368aa18935e6a74d908f55a3d3a9e9f,
         type: 3}
