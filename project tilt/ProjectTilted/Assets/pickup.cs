@@ -27,7 +27,7 @@ public class pickup : MonoBehaviour
     private void OnMouseDown()
     {
         GetComponent<Rigidbody>().useGravity = false;
-
+        transform.rotation = dest.rotation;
         this.transform.parent = GameObject.Find("throwpos").transform;
 
     }
