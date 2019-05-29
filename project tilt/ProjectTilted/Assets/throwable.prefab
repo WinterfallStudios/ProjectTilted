@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 848434446753739046}
   - component: {fileID: 848434446753739047}
   - component: {fileID: 848434446753739044}
-  - component: {fileID: 848434446753739051}
+  - component: {fileID: 6375587421471529760}
   m_Layer: 0
   m_Name: throwable
   m_TagString: Untagged
@@ -110,7 +110,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &848434446753739051
+--- !u!114 &6375587421471529760
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,5 +123,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93a67b2fc27aa64d877909f7af0dee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dest: {fileID: 0}
-  throwforce: 0

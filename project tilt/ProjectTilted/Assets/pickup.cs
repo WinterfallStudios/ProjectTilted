@@ -13,13 +13,13 @@ public class pickup : MonoBehaviour
     {
         times = 0;
         rb = GetComponent<Rigidbody>();
-       dest = GameObject.Find("throwpos").transform;
+        dest = GameObject.Find("throwpos").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(times <= 4)
+        if (times >= 4)
         {
             Destroy(gameObject);
         }
@@ -27,9 +27,9 @@ public class pickup : MonoBehaviour
     private void OnMouseDown()
     {
         GetComponent<Rigidbody>().useGravity = false;
-        
+
         this.transform.parent = GameObject.Find("throwpos").transform;
-        
+
     }
     private void OnMouseUp()
     {
