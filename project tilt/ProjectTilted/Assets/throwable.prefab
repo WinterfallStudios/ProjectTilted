@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 848434446753739047}
   - component: {fileID: 848434446753739044}
   - component: {fileID: 848434446753739051}
+  - component: {fileID: 6990544753119075901}
   m_Layer: 0
   m_Name: throwable
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 848434446753739045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 113.570915, y: 8, z: 37.86341}
-  m_LocalScale: {x: 3.4856222, y: 3.4856222, z: 3.4856222}
+  m_LocalScale: {x: 3.3454037, y: 3.4856222, z: 3.4856222}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -125,3 +126,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dest: {fileID: 0}
   throwforce: 10
+--- !u!1818360610 &6990544753119075901
+ScaleConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848434446753739045}
+  m_Enabled: 1
+  m_Weight: 1
+  m_ScaleAtRest: {x: 3.3454037, y: 3.4856222, z: 3.4856222}
+  m_ScaleOffset: {x: 1, y: 1, z: 1}
+  m_AffectScalingX: 1
+  m_AffectScalingY: 1
+  m_AffectScalingZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources: []
