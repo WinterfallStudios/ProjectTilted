@@ -6,8 +6,7 @@ public class combat : MonoBehaviour
 {
     public Transform right;
     public Transform left;
-
-
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +16,8 @@ public class combat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             left.Rotate(0, 90, -90);
@@ -28,4 +29,6 @@ public class combat : MonoBehaviour
             right.Rotate(0, 90, -90);
         }
     }
+
+    
 }
