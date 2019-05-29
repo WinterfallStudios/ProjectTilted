@@ -7,9 +7,11 @@ public class pickup : MonoBehaviour
     public Transform dest;
     public float throwforce = 10f;
     private Rigidbody rb;
+    private int times;
     // Start is called before the first frame update
     void Start()
     {
+        times = 0;
         rb = GetComponent<Rigidbody>();
        dest = GameObject.Find("throwpos").transform;
     }
@@ -17,7 +19,10 @@ public class pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(times <= 4)
+        {
+            Destroy(gameObject);
+        }
     }
     private void OnMouseDown()
     {
@@ -28,7 +33,8 @@ public class pickup : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        
+        times++;
+        transform.Translate(0f, 0f, throwforce);
         this.transform.parent = null;
         GetComponent<Rigidbody>().useGravity = true;
     }
