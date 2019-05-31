@@ -1296,8 +1296,8 @@ MonoBehaviour:
   rotation: 0
   sensitivity: 0.8
   timeBtwJump: 0
-  jumpforce: 26.2
-  StartTimeBtwJump: 2
+  jumpforce: 25
+  StartTimeBtwJump: 2.7
   left: {fileID: 432224608}
   right: {fileID: 98434335}
   StartTimeBtwWalk: 1.5
@@ -1330,6 +1330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dest: {fileID: 0}
   throwforce: 10
+  cc: {fileID: 0}
 --- !u!1 &1504275764017588398
 GameObject:
   m_ObjectHideFlags: 0
