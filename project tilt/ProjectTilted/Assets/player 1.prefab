@@ -1296,8 +1296,8 @@ MonoBehaviour:
   rotation: 0
   sensitivity: 0.8
   timeBtwJump: 0
-  jumpforce: 40
-  StartTimeBtwJump: 2.3
+  jumpforce: 55
+  StartTimeBtwJump: 3
   left: {fileID: 432224608}
   right: {fileID: 98434335}
   StartTimeBtwWalk: 1.5
